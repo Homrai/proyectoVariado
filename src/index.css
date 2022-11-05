@@ -1,0 +1,51 @@
+/* Cronometro */
+            .Fondo-cronometro{
+                background-image: url("./Img/cronometro.png");
+                background-position-x: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .vertical-text {
+                transform: rotate(90deg);
+                transform-origin: center top 0;
+                }
+            .digital{
+                font-family: 'orbitron', sans-serif;;
+                font-size: small;
+            }
+            .margen{
+                margin-top: 100%;
+                margin-left: 25%;
+            }
+            @media All and (max-width:575px) {
+                .vertical-text {
+                    display: none;
+                    }
+            }
+
+/* Calculadora */
+            .tamaño-letra{
+                font-size: medium;
+            }
+            .tamaño-calculadora{
+                width: 500px;
+                height: 500px;
+            }
+            @media (max-width:500px){
+                .tamaño-calculadora{
+                    width: 400px;
+                    height: 400px;
+                    margin-top: 75px;
+                }
+                .tamaño-letra{
+                    font-size: xx-small;
+                }
+            }
+            @media (max-width:400px){
+                .tamaño-calculadora{
+                    width: 350px;
+                    height: 350px;
+                    margin-top: 75px;
+                }
+
+            }
